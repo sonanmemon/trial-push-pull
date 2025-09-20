@@ -40,17 +40,10 @@ using RDatasets
  
 cars = dataset("datasets", "mtcars")
  
-#cd("D:/Julia Learning/Data Visualisation/")
 
-# 3-dimensions plot:
-plot(cars.Gear, 
-    cars.Disp, 
-    cars.HP, 
-    title = "3D",
-    xlabel = "Number",
-    ylabel = "Displacement",
-    zlabel = "HP changed")
 
+
+    
 
 
 

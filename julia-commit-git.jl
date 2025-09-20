@@ -47,7 +47,7 @@ plot(cars.Gear, # x-axis
     cars.Disp, # yaxis
     cars.HP, # z-axis
     title = "3D",
-    xlabel = "Number of Gears",
+    xlabel = "Number",
     ylabel = "Displacement",
     zlabel = "HP")
 

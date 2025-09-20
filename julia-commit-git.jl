@@ -9,7 +9,7 @@ using Printf, QuantEcon, Random
 
 using Pkg
 
-Pkg.add("PlotThemes")
+#Pkg.add("PlotThemes")
 
 using PlotThemes
 

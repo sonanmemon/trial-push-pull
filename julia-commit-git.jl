@@ -43,13 +43,14 @@ cars = dataset("datasets", "mtcars")
 #cd("D:/Julia Learning/Data Visualisation/")
 
 # 3-dimensions plot:
-plot(cars.Gear, # x-axis
-    cars.Disp, # yaxis
-    cars.HP, # z-axis
+plot(cars.Gear, 
+    cars.Disp, 
+    cars.HP, 
     title = "3D",
-    xlabel = "Numb",
+    xlabel = "Number",
     ylabel = "Displacement",
-    zlabel = "HP")
+    zlabel = "HP changed")
+
 
 
 

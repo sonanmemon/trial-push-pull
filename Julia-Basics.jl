@@ -46,7 +46,7 @@ cars = dataset("datasets", "mtcars")
 plot(cars.Gear, # x-axis
     cars.Disp, # yaxis
     cars.HP, # z-axis
-    title = "3D",
+    title = "3D Experiment",
     xlabel = "Number of Gears",
     ylabel = "Displacement",
     zlabel = "HP")
@@ -54,5 +54,13 @@ plot(cars.Gear, # x-axis
 
 
 
+bar(cars.Model,
+    cars.MPG,
+    label = "Miles per Gallon",
+    title = "Miles/Gallon For Cars",
+    xticks =:all,
+    xrotation = 45,
+    size = [500, 400],
+    legend =:topleft)
 
 
